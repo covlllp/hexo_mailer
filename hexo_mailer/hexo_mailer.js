@@ -103,7 +103,6 @@ function makeEmail() {
 		var customizedTemplate = ejs.render(email_template_ejs,
 		{
 			firstName: firstName,
-			monthsSinceContact: numMonths,
 			latestPosts: posts
 		});
 
